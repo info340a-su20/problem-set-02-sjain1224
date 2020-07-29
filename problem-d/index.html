@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">  
     <title>Informatics</title>
+    <meta name="author" content="Siddhant Jain">
 
     <!-- normalize.css for cross-browser stuff -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     <nav>
+        <div class="skip">
+            <a href="#main">Skip Navigation</a>
+        </div>
         <ul>
-            <li><a href="#">Informatics</a></li>
+            <li><a href="#"><span class="logo" aria-hidden="true">&nbsp</span>Informatics</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#admissions">Admissions</a></li>
             <li><a href="#faculty">Faculty</a></li>
         </ul>
         <div class="searchBox" role="search">
             <input type="text" placeholder="Search...">
-            <button>Search</button>
+            <button><i class="fas fa-search fa-flip-horizontal" aria-label="Search Magnifying Glass"></i></button>
         </div>
     </nav>
 
